@@ -18,5 +18,17 @@ body { color: var(--ink); font-family: "Trebuchet MS", "Segoe UI", sans-serif; b
 .offer-badge { color: #513d13; background: #f4dfaa; border: 1px solid var(--sun); border-radius: 0 !important; }
 .btn-primary { --bs-btn-bg: #2f6b4b; --bs-btn-border-color: #2f6b4b; --bs-btn-hover-bg: #1f4d35; --bs-btn-hover-border-color: #1f4d35; --bs-btn-focus-shadow-rgb: 47, 107, 75; border-radius: 0 !important; }
 
-
+/* Parte 5 - Formulario */
+.form-control, .form-select, .card, .btn-outline-dark { border-radius: 0 !important; }
+.form-control:focus, .form-select:focus { border-color: var(--moss); box-shadow: 0 0 0 .25rem rgba(47, 107, 75, .18); }
+.section-panel { position: fixed; top: 1rem; right: 1rem; z-index: 1100; width: min(19rem, calc(100vw - 2rem)); padding: 1rem; color: #fff; background: #102b1e; border: 1px solid var(--sun); box-shadow: 0 .75rem 2rem rgba(0, 0, 0, .25); }
+.section-panel__header { padding-bottom: .75rem; border-bottom: 1px solid rgba(244, 223, 170, .45); }
+.section-panel__title { margin: 0; font-size: 1rem; font-weight: 800; }
+.section-panel__hint { margin: .35rem 0 0; color: #f4dfaa; font-size: .8rem; }
+.section-panel__options { display: grid; gap: .5rem; margin: 1rem 0; }
+.section-panel__option { display: flex; align-items: center; gap: .65rem; min-height: 2.75rem; padding: .55rem .65rem; color: #fff; cursor: pointer; border: 1px solid rgba(244, 223, 170, .4); }
+.section-panel__option:has(input:checked), .section-panel__option:hover { border-color: var(--sun); background: #1f4d35; }
+.section-panel__option input { width: 1rem; height: 1rem; accent-color: var(--sun); }
+.section-panel__clear { width: 100%; padding: .6rem .75rem; color: #fff; font-weight: 700; border: 1px solid #fff; background: transparent; cursor: pointer; }
+.section-panel__clear:hover { color: #102b1e; background: #fff; }
 @media (max-width: 575.98px) { .site-header .navbar-nav { width: 100%; justify-content: center; margin-top: 1rem; } .site-header .navbar-nav .nav-item { margin-left: 0 !important; } .section-panel { top: auto; right: 1rem; bottom: 1rem; left: 1rem; width: auto; } }
