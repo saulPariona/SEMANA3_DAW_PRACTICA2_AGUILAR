@@ -1,27 +1,27 @@
 # Práctica 2 - SEMANA 3: Desarrollo Web con Bootstrap 5 y Tailwind CSS
 
-## 📋 Información del Proyecto
+## Información del Proyecto
 * **Tema Seleccionado:** N°6 Inmobiliaria – Propiedades, búsqueda y contacto
 * **Curso / Asignatura:** Desarrollo Web / Desarrollo de Aplicaciones Web
 
-### 👥 Integrantes
+###  Integrantes
 * **Janampa Jaime, Khaled Alejandro**
 * **Pariona Ramos, Saúl Anibal**
 
 ---
 
-## 🔗 Enlaces del Proyecto
+##  Enlaces del Proyecto
 * **Repositorio en GitHub:** [https://github.com/saulPariona/SEMANA3_DAW_PRACTICA2_AGUILAR](https://github.com/saulPariona/SEMANA3_DAW_PRACTICA2_AGUILAR)
 * **Sitio Web Desplegado (GitHub Pages):** [https://saulpariona.github.io/SEMANA3_DAW_PRACTICA2_AGUILAR/](https://saulpariona.github.io/SEMANA3_DAW_PRACTICA2_AGUILAR/)
 
 ---
 
-## 🚀 Descripción del Proyecto
+##  Descripción del Proyecto
 Este proyecto consiste en la maquetación e implementación de una plataforma web inmobiliaria moderna, altamente responsive, accesible e interactiva. El desarrollo combina la estructura sintáctica y los componentes robustos de **Bootstrap 5.3.3** con la agilidad y el diseño utilitario refinado de **Tailwind CSS (Play CDN)**.
 
 ---
 
-## ⚙️ Integración Híbrida: Bootstrap 5 + Tailwind CSS
+##  Integración Híbrida: Bootstrap 5 + Tailwind CSS
 
 Uno de los principales desafíos técnicos resolutivos de esta práctica fue la combinación estratégica de ambos frameworks para aprovechar lo mejor de dos mundos sin generar colisiones estéticas o estructurales:
 
@@ -35,7 +35,7 @@ Uno de los principales desafíos técnicos resolutivos de esta práctica fue la 
 
 ---
 
-## 🛠️ Detalle de Pasos Implementados
+##  Detalle de Pasos Implementados
 
 ### PASO 1: Configuración del Entorno Inicial
 * Estructuración base en **HTML5** con idioma en español (`lang="es"`).
@@ -70,7 +70,7 @@ Uno de los principales desafíos técnicos resolutivos de esta práctica fue la 
 ---
 
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 * **HTML5** (Semántico y Accesible)
 * **CSS3** (Tailwind CSS Play CDN)
 * **JavaScript (ES6+)** (Bootstrap 5 Bundle JS)
