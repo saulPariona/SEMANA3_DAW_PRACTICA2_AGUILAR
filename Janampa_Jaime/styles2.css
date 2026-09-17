@@ -1,0 +1,22 @@
+:root { --ink: #17231d; --forest: #143d2b; --moss: #2f6b4b; --sun: #d7a84b; }
+
+body { color: var(--ink); font-family: "Trebuchet MS", "Segoe UI", sans-serif; background: #f7f5ef; }
+.panel-target[hidden] { display: none !important; }
+.site-header { position: relative; z-index: 1050; color: #fff; background: var(--forest); border-bottom: 3px solid var(--sun); }
+.site-header .navbar-brand, .site-header .nav-link { color: #fff !important; }
+.site-header .nav-link:hover, .site-header .nav-link.active { color: var(--sun) !important; }
+.site-header .navbar-collapse { display: flex !important; flex-basis: auto; }
+.site-header .navbar-nav { flex-wrap: wrap; }
+.brand-mark { width: 2.25rem; height: 2.25rem; border-radius: 0 !important; }
+.feature-icon { width: 2rem; height: 2rem; color: var(--moss); }
+.gold-badge { background: var(--sun); }
+
+/* Parte 4 - Grid de tarjetas */
+.property-card { border-radius: 0 !important; transition: transform .25s ease, box-shadow .25s ease; }
+.property-card:hover { transform: translateY(-5px); box-shadow: 0 1rem 2rem rgba(20, 61, 43, .18) !important; }
+.property-card img { aspect-ratio: 4 / 3; object-fit: cover; border-radius: 0 !important; }
+.offer-badge { color: #513d13; background: #f4dfaa; border: 1px solid var(--sun); border-radius: 0 !important; }
+.btn-primary { --bs-btn-bg: #2f6b4b; --bs-btn-border-color: #2f6b4b; --bs-btn-hover-bg: #1f4d35; --bs-btn-hover-border-color: #1f4d35; --bs-btn-focus-shadow-rgb: 47, 107, 75; border-radius: 0 !important; }
+
+
+@media (max-width: 575.98px) { .site-header .navbar-nav { width: 100%; justify-content: center; margin-top: 1rem; } .site-header .navbar-nav .nav-item { margin-left: 0 !important; } .section-panel { top: auto; right: 1rem; bottom: 1rem; left: 1rem; width: auto; } }
